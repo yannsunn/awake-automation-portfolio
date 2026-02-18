@@ -1,6 +1,6 @@
 const API_URL = process.env.DEEPSEEK_API_URL || "https://open.bigmodel.cn/api/paas/v4/chat/completions";
 const API_KEY = process.env.DEEPSEEK_API_KEY || "";
-const MODEL = process.env.DEEPSEEK_MODEL || "glm-4-flash";
+const MODEL = process.env.DEEPSEEK_MODEL || "glm-4.7-flash";
 
 interface Message {
   role: "system" | "user" | "assistant";
